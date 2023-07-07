@@ -106,11 +106,14 @@ const DetailsScreen = ({ route, navigation }) => {
         </View>
         <View style={styles.footer}>
           <View style={styles.iconContainer}>
-            <Icon name="heart-outline" color={COLORS.white} size={22}/>
- 
+            <Icon name="heart-outline" color={COLORS.white} size={22} />
           </View>
           <View style={styles.btn}>
-                <Text style={{ color: COLORS.white, fontWeight: 'bold', fontSize: 18}}>ADOPTION</Text>
+            <Text
+              style={{ color: COLORS.white, fontWeight: "bold", fontSize: 18 }}
+            >
+              ADOPTION
+            </Text>
           </View>
         </View>
       </View>
@@ -157,15 +160,15 @@ const styles = StyleSheet.create({
     borderRadius: 12,
     justifyContent: "center",
     alignItems: "center",
-    marginRight: 15
+    marginRight: 15,
   },
   btn: {
     backgroundColor: COLORS.primary,
     flex: 1,
     height: 50,
     borderRadius: 12,
-    justifyContent: 'center',
-    alignItems: 'center'
+    justifyContent: "center",
+    alignItems: "center",
   },
 });
 export default DetailsScreen;
