@@ -1,4 +1,7 @@
 # petAdoptionRN
+An effective simple application coded with react native for those who want to own or adopt an animal
+
+
 ![Screenshot_1688737827](https://github.com/serdarmengutay/petAdoptionRN/assets/77384362/fac5ee2b-c3b3-458f-850f-bf074935a791)
 
 ![Screenshot_1688737838](https://github.com/serdarmengutay/petAdoptionRN/assets/77384362/b3412487-a374-4aaf-bd01-1439ec4a87ec)
